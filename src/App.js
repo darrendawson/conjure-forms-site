@@ -102,9 +102,9 @@ class App extends React.Component {
         <h1 id="demo_title">Conjure Forms</h1>
         <p className="demo_description">Powerful and flexible surveys for React.js</p>
         <div className='button_container'>
-          <button id="npm_button" className="action_button">NPM</button>
+          <a href="https://www.npmjs.com/package/conjure-form"><button id="npm_button" className="action_button">NPM</button></a>
           <button id="get_started_button" className="action_button">Get Started</button>
-          <button id="github_button" className="action_button">Github</button>
+          <a href="https://github.com/darrendawson/conjure-forms"><button id="github_button" className="action_button">Github</button></a>
         </div>
       </div>
     );
@@ -114,7 +114,7 @@ class App extends React.Component {
     return (
       <div>
         {this.renderRainbowBoundaryLine()}
-        <p style={{'text-align': 'right', 'margin': '0px 0px 30px 0px', 'font-size': '1.2em'}}>Made by <a href="https://thedarrendawson.com" target="__blank">Darren Dawson</a></p>
+        <p style={{'text-align': 'right', 'margin': '0px 0px 30px 0px', 'font-size': '1.2em', 'color': '#cccccc'}}>Made by <a href="https://thedarrendawson.com" target="__blank">Darren Dawson</a></p>
       </div>
     );
   }
