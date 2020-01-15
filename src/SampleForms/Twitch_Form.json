@@ -1,0 +1,2199 @@
+{
+  "subforms": {
+    "TuM3YR7": {
+      "subforms": {
+        "bGUuS97": {
+          "subforms": {},
+          "items": {
+            "Ou73DAQ": {
+              "itemID": "Ou73DAQ",
+              "itemType": "text",
+              "textDetails": {
+                "descriptionText": "This survey will ask you about what kind of data you want to scrape off of Twitch using their API.\\nAt the end, we will generate working code for you to match your described use case. ",
+                "titleText": "About",
+                "sectionTitleText": "API for Scraping Twitch!",
+                "outputID": "Ou73DAQ",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem"
+              },
+              "appearance": {
+                "paddingTop": "10",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowSectionTitle": "30",
+                "paddingBelowRegularTitle": "10",
+                "colorSectionTitleText": "#4b367c",
+                "colorSectionTitleBackground": "#b19dd8",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8"
+              }
+            },
+            "9KifscA": {
+              "itemID": "9KifscA",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "40",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "5",
+                "paddingBelowDescription": "10",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#b19dd8",
+                "colorInputBackground": "#4b367c",
+                "colorInputText": "#b19dd8",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "API Wrapper Language",
+                "questionDescription": "Specify what language(s) you are using for development.",
+                "questionType": "multipleChoice",
+                "outputID": "languages",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem",
+                "multipleChoiceType": "standard",
+                "minSelected": 0,
+                "maxSelected": "4",
+                "choices": [
+                  "Python",
+                  "Ruby",
+                  "JS",
+                  "Java"
+                ]
+              }
+            },
+            "uzrYpzl": {
+              "itemID": "uzrYpzl",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "10",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "2",
+                "paddingBelowDescription": "2",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#b19dd8",
+                "colorInputBackground": "#4b367c",
+                "colorInputText": "#b19dd8",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "What kind of content do you want to scrape?",
+                "questionDescription": "",
+                "questionType": "multipleChoice",
+                "outputID": "content_type",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem",
+                "multipleChoiceType": "standard",
+                "minSelected": "1",
+                "maxSelected": 1,
+                "choices": [
+                  "Streamer Profiles",
+                  "Livestreams",
+                  "Saved Videos"
+                ]
+              }
+            }
+          },
+          "order": [
+            {
+              "type": "ConjureFormItem",
+              "id": "Ou73DAQ"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "9KifscA"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "uzrYpzl"
+            }
+          ],
+          "formID": "bGUuS97",
+          "formDetails": {
+            "containerType": "card",
+            "outputID": "about",
+            "maxForms": 1,
+            "newSubformButtonText": "Add New",
+            "renderConditionally": false,
+            "renderCondition": {
+              "questionID": false,
+              "questionValue": false
+            },
+            "type": "ConjureForm"
+          },
+          "appearance": {
+            "paddingTop": "40",
+            "paddingSides": "20",
+            "paddingBottom": "10",
+            "colorControlButtonBackground": "#262626",
+            "colorControlButtonText": "#ffffff",
+            "colorBackground": "#4b367c",
+            "colorCardShadow": "black"
+          }
+        },
+        "kdtgqTK": {
+          "subforms": {},
+          "items": {
+            "clRgGcw": {
+              "itemID": "clRgGcw",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "10",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "2",
+                "paddingBelowDescription": "2",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#b19dd8",
+                "colorInputBackground": "#4b367c",
+                "colorInputText": "#b19dd8",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "How do you want to search for videos?",
+                "questionDescription": "Select multiple options to combine them.\\n - For example, \"All videos by a specific streamer\" + \"All videos in a certain view count rage\" = \"All videos by a specific streamer in a certain view count range\"",
+                "questionType": "multipleChoice",
+                "outputID": "video_params",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem",
+                "multipleChoiceType": "standard",
+                "minSelected": 0,
+                "maxSelected": "3",
+                "choices": [
+                  "All videos by a specific streamer",
+                  "All videos in a certain view count range",
+                  "All videos of a certain game/category",
+                  "A video with a specific ID",
+                  "All videos with a matching title"
+                ]
+              }
+            },
+            "jcBtqL3": {
+              "itemID": "jcBtqL3",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "20",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "2",
+                "paddingBelowDescription": "2",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#b19dd8",
+                "colorInputBackground": "#4b367c",
+                "colorInputText": "#b19dd8",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "How do you want to specify the streamer?",
+                "questionDescription": "",
+                "questionType": "multipleChoice",
+                "outputID": "specify_streamer_option",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "clRgGcw",
+                  "questionValue": "All videos by a specific streamer"
+                },
+                "type": "ConjureFormItem",
+                "multipleChoiceType": "standard",
+                "minSelected": "1",
+                "maxSelected": 1,
+                "choices": [
+                  "By their streamer ID",
+                  "By their username"
+                ]
+              }
+            },
+            "YhphBjR": {
+              "itemID": "YhphBjR",
+              "itemType": "text",
+              "textDetails": {
+                "descriptionText": "",
+                "titleText": "",
+                "sectionTitleText": "Scrape Videos",
+                "outputID": "YhphBjR",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem"
+              },
+              "appearance": {
+                "paddingTop": "10",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowSectionTitle": "2",
+                "paddingBelowRegularTitle": "2",
+                "colorSectionTitleText": "#4b367c",
+                "colorSectionTitleBackground": "#b19dd8",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8"
+              }
+            },
+            "2wCzygS": {
+              "itemID": "2wCzygS",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "20",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "5",
+                "paddingBelowDescription": "10",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#262626",
+                "colorInputBackground": "#EFD6FE",
+                "colorInputText": "#262626",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "What is their streamer ID or username?",
+                "questionDescription": "Use the option you selected above.",
+                "questionType": "input",
+                "inputType": "string",
+                "inputPrompt": "",
+                "defaultValue": "",
+                "outputID": "streamer_id",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "dPKXaET",
+                  "questionValue": "Yes"
+                },
+                "type": "ConjureFormItem"
+              }
+            },
+            "dPKXaET": {
+              "itemID": "dPKXaET",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "2",
+                "paddingBelowDescription": "2",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#b19dd8",
+                "colorInputBackground": "#4b367c",
+                "colorInputText": "#b19dd8",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "Do you want to hardcode for a specific streamer?",
+                "questionDescription": "If you say no, the code we generate will be able to search for any given streamer",
+                "questionType": "multipleChoice",
+                "outputID": "hardcode_streamer",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem",
+                "multipleChoiceType": "standard",
+                "minSelected": "1",
+                "maxSelected": 1,
+                "choices": [
+                  "No",
+                  "Yes"
+                ]
+              }
+            },
+            "s0WNA5a": {
+              "itemID": "s0WNA5a",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "5",
+                "paddingBelowDescription": "10",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#262626",
+                "colorInputBackground": "#EFD6FE",
+                "colorInputText": "#262626",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "Minimum number of views",
+                "questionDescription": "Filter out all videos with views below this number.",
+                "questionType": "input",
+                "outputID": "min_views",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "clRgGcw",
+                  "questionValue": "All videos in a certain view count range"
+                },
+                "type": "ConjureFormItem",
+                "inputType": "number",
+                "inputPrompt": "",
+                "defaultValue": ""
+              }
+            },
+            "8x6msMI": {
+              "itemID": "8x6msMI",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "5",
+                "paddingBelowDescription": "10",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#262626",
+                "colorInputBackground": "#EFD6FE",
+                "colorInputText": "#262626",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "Maximum number of views",
+                "questionDescription": "Filter out all videos with views above this number. If you don't want a max, just set it as a really large number",
+                "questionType": "input",
+                "inputType": "number",
+                "inputPrompt": "prompt...",
+                "defaultValue": "10000000",
+                "outputID": "max_views",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "clRgGcw",
+                  "questionValue": "All videos in a certain view count range"
+                },
+                "type": "ConjureFormItem"
+              }
+            },
+            "xI5xKmc": {
+              "itemID": "xI5xKmc",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "2",
+                "paddingBelowDescription": "2",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#b19dd8",
+                "colorInputBackground": "#4b367c",
+                "colorInputText": "#b19dd8",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "How do you want to specify what game/category you are looking for?",
+                "questionDescription": "",
+                "questionType": "multipleChoice",
+                "outputID": "specify_game_option",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "clRgGcw",
+                  "questionValue": "All videos of a certain game/category"
+                },
+                "type": "ConjureFormItem",
+                "multipleChoiceType": "standard",
+                "minSelected": "1",
+                "maxSelected": 1,
+                "choices": [
+                  "By name",
+                  "By Twitch ID"
+                ]
+              }
+            },
+            "JjNsmMP": {
+              "itemID": "JjNsmMP",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "2",
+                "paddingBelowDescription": "2",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#b19dd8",
+                "colorInputBackground": "#4b367c",
+                "colorInputText": "#b19dd8",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "Do you want to hardcode for a specific game/category?",
+                "questionDescription": "If you say no, the code we generate will be able to search for any given game/category",
+                "questionType": "multipleChoice",
+                "outputID": "hardcode_game",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "clRgGcw",
+                  "questionValue": "All videos of a certain game/category"
+                },
+                "type": "ConjureFormItem",
+                "multipleChoiceType": "standard",
+                "minSelected": "1",
+                "maxSelected": 1,
+                "choices": [
+                  "No",
+                  "Yes"
+                ]
+              }
+            },
+            "WGQeFIx": {
+              "itemID": "WGQeFIx",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "5",
+                "paddingBelowDescription": "10",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#262626",
+                "colorInputBackground": "#EFD6FE",
+                "colorInputText": "#262626",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "What is the name or ID of the game/category?",
+                "questionDescription": "Use the option you selected above",
+                "questionType": "input",
+                "inputType": "string",
+                "inputPrompt": "",
+                "defaultValue": "",
+                "outputID": "hardcoded_category_id",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "JjNsmMP",
+                  "questionValue": "Yes"
+                },
+                "type": "ConjureFormItem"
+              }
+            },
+            "cZagCO8": {
+              "itemID": "cZagCO8",
+              "itemType": "text",
+              "textDetails": {
+                "descriptionText": "When streamers save a livestream to their profile, that is renamed to be a video.\\nWhen a livestream becomes a video, its view count resets. Because of this, videos tend to have significantly fewer views. ",
+                "titleText": "About videos on Twitch",
+                "sectionTitleText": "",
+                "outputID": "cZagCO8",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem"
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "40",
+                "paddingSides": "10",
+                "paddingBelowSectionTitle": "2",
+                "paddingBelowRegularTitle": "2",
+                "colorSectionTitleText": "#b19dd8",
+                "colorSectionTitleBackground": "#b19dd8",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8"
+              }
+            },
+            "nVggYs0": {
+              "itemID": "nVggYs0",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "2",
+                "paddingBelowDescription": "2",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#b19dd8",
+                "colorInputBackground": "#4b367c",
+                "colorInputText": "#b19dd8",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "Do you want to hardcode for a specific video ID?",
+                "questionDescription": "If you say no, the generated code will be able to search for videos with any given video ID.",
+                "questionType": "multipleChoice",
+                "outputID": "hardcode_video_id_option",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "clRgGcw",
+                  "questionValue": "A video with a specific ID"
+                },
+                "type": "ConjureFormItem",
+                "multipleChoiceType": "standard",
+                "minSelected": "1",
+                "maxSelected": 1,
+                "choices": [
+                  "No",
+                  "Yes"
+                ]
+              }
+            },
+            "qTw1ErW": {
+              "itemID": "qTw1ErW",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "2",
+                "paddingBelowDescription": "2",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#262626",
+                "colorInputBackground": "#EFD6FE",
+                "colorInputText": "#262626",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "Hardcoded video ID",
+                "questionDescription": "",
+                "questionType": "input",
+                "inputType": "string",
+                "inputPrompt": "",
+                "defaultValue": "",
+                "outputID": "hardcoded_video_id",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "jh3uFiA",
+                  "questionValue": "Yes"
+                },
+                "type": "ConjureFormItem"
+              }
+            },
+            "nEiKnAO": {
+              "itemID": "nEiKnAO",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "2",
+                "paddingBelowDescription": "2",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#b19dd8",
+                "colorInputBackground": "#4b367c",
+                "colorInputText": "#b19dd8",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "Do you want to hardcode for a specific video title?",
+                "questionDescription": "If you say no, the generated code will be able to serach for videos with any given video title.",
+                "questionType": "multipleChoice",
+                "outputID": "hardcode_video_title_option",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "clRgGcw",
+                  "questionValue": "All videos with a matching title"
+                },
+                "type": "ConjureFormItem",
+                "multipleChoiceType": "standard",
+                "minSelected": "1",
+                "maxSelected": 1,
+                "choices": [
+                  "No",
+                  "Yes"
+                ]
+              }
+            },
+            "LDMfv9N": {
+              "itemID": "LDMfv9N",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "2",
+                "paddingBelowDescription": "2",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#262626",
+                "colorInputBackground": "#EFD6FE",
+                "colorInputText": "#262626",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "Hardcoded video title",
+                "questionDescription": "",
+                "questionType": "input",
+                "outputID": "hardcoded_video_title",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "nEiKnAO",
+                  "questionValue": "Yes"
+                },
+                "type": "ConjureFormItem",
+                "inputType": "string",
+                "inputPrompt": "",
+                "defaultValue": ""
+              }
+            }
+          },
+          "order": [
+            {
+              "type": "ConjureFormItem",
+              "id": "YhphBjR"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "cZagCO8"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "clRgGcw"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "jcBtqL3"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "dPKXaET"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "2wCzygS"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "s0WNA5a"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "8x6msMI"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "xI5xKmc"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "JjNsmMP"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "WGQeFIx"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "nVggYs0"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "qTw1ErW"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "nEiKnAO"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "LDMfv9N"
+            }
+          ],
+          "formID": "kdtgqTK",
+          "formDetails": {
+            "containerType": "card",
+            "outputID": "scrape_videos",
+            "maxForms": 1,
+            "newSubformButtonText": "Add New",
+            "renderConditionally": true,
+            "renderCondition": {
+              "questionID": "uzrYpzl",
+              "questionValue": "Saved Videos"
+            },
+            "type": "ConjureForm"
+          },
+          "appearance": {
+            "paddingTop": "40",
+            "paddingSides": "20",
+            "paddingBottom": "30",
+            "colorControlButtonBackground": "#262626",
+            "colorControlButtonText": "#ffffff",
+            "colorBackground": "#4b367c",
+            "colorCardShadow": "black"
+          }
+        },
+        "lWhYGoI": {
+          "subforms": {},
+          "items": {
+            "mVAmp9h": {
+              "itemID": "mVAmp9h",
+              "itemType": "text",
+              "textDetails": {
+                "descriptionText": "",
+                "titleText": "",
+                "sectionTitleText": "Scrape Streamers",
+                "outputID": "mVAmp9h",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem"
+              },
+              "appearance": {
+                "paddingTop": "10",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowSectionTitle": "2",
+                "paddingBelowRegularTitle": "30",
+                "colorSectionTitleText": "#4b367c",
+                "colorSectionTitleBackground": "#b19dd8",
+                "colorTitleText": "#262626",
+                "colorDescriptionText": "#b19dd8"
+              }
+            },
+            "iTeoAFJ": {
+              "itemID": "iTeoAFJ",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "10",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "2",
+                "paddingBelowDescription": "2",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#b19dd8",
+                "colorInputBackground": "#4b367c",
+                "colorInputText": "#b19dd8",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "What kind of streamers are you looking for?",
+                "questionDescription": "Select all that apply. Selecting multiple options will combine them. ",
+                "questionType": "multipleChoice",
+                "outputID": "streamer_params",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem",
+                "multipleChoiceType": "standard",
+                "minSelected": 0,
+                "maxSelected": "4",
+                "choices": [
+                  "Streamers within a certain follower count range",
+                  "Streamers within a certain subscriber count range",
+                  "Streamers who have been on Twitch for a certain amount of time",
+                  "A streamer with a specific username or ID"
+                ]
+              }
+            },
+            "UcxDzrF": {
+              "itemID": "UcxDzrF",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "5",
+                "paddingBelowDescription": "10",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#262626",
+                "colorInputBackground": "#EFD6FE",
+                "colorInputText": "#262626",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "Minimum number of followers",
+                "questionDescription": "Filter out all streamers with fewer followers than this.",
+                "questionType": "input",
+                "inputType": "number",
+                "inputPrompt": "prompt...",
+                "defaultValue": "",
+                "outputID": "min_followers",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "iTeoAFJ",
+                  "questionValue": "Streamers within a certain follower count range"
+                },
+                "type": "ConjureFormItem"
+              }
+            },
+            "9KOYZ4s": {
+              "itemID": "9KOYZ4s",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "2",
+                "paddingBelowDescription": "2",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#262626",
+                "colorInputBackground": "#EFD6FE",
+                "colorInputText": "#262626",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "Maximum number of followers",
+                "questionDescription": "Filter out all streamers with more followers than this.",
+                "questionType": "input",
+                "inputType": "number",
+                "inputPrompt": "prompt...",
+                "defaultValue": "25000",
+                "outputID": "max_followers",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "iTeoAFJ",
+                  "questionValue": "Streamers within a certain follower count range"
+                },
+                "type": "ConjureFormItem"
+              }
+            },
+            "gwguLPM": {
+              "itemID": "gwguLPM",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "2",
+                "paddingBelowDescription": "2",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#262626",
+                "colorInputBackground": "#EFD6FE",
+                "colorInputText": "#262626",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "Minimum number of subscribers",
+                "questionDescription": "Filter out all streamers with fewer subscribers than this.",
+                "questionType": "input",
+                "inputType": "number",
+                "inputPrompt": "prompt...",
+                "defaultValue": "0",
+                "outputID": "min_subscribers",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "iTeoAFJ",
+                  "questionValue": "Streamers within a certain subscriber count range"
+                },
+                "type": "ConjureFormItem"
+              }
+            },
+            "SKWu5KM": {
+              "itemID": "SKWu5KM",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "5",
+                "paddingBelowDescription": "10",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#262626",
+                "colorInputBackground": "#EFD6FE",
+                "colorInputText": "#262626",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "Maximum number of subscribers",
+                "questionDescription": "Filter out all streamers with more subscribers than this.",
+                "questionType": "input",
+                "inputType": "number",
+                "inputPrompt": "prompt...",
+                "defaultValue": "25000",
+                "outputID": "max_subscribers",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "iTeoAFJ",
+                  "questionValue": "Streamers within a certain subscriber count range"
+                },
+                "type": "ConjureFormItem"
+              }
+            },
+            "R9bvec9": {
+              "itemID": "R9bvec9",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "5",
+                "paddingBelowDescription": "10",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#262626",
+                "colorInputBackground": "#EFD6FE",
+                "colorInputText": "#262626",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "Earliest date for streamer to have joined Twitch",
+                "questionDescription": "Filter out all streamers who joined Twitch before this date.",
+                "questionType": "input",
+                "inputType": "string",
+                "inputPrompt": "MM/DD/YYYY",
+                "defaultValue": "",
+                "outputID": "start_date",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "iTeoAFJ",
+                  "questionValue": "Streamers who have been on Twitch for a certain amount of time"
+                },
+                "type": "ConjureFormItem"
+              }
+            },
+            "pQgsGG6": {
+              "itemID": "pQgsGG6",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "5",
+                "paddingBelowDescription": "10",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#262626",
+                "colorInputBackground": "#EFD6FE",
+                "colorInputText": "#262626",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "Latest date for streamer to have joined Twitch",
+                "questionDescription": "Filter out all streamers who joined Twitch after this date\\n",
+                "questionType": "input",
+                "inputType": "string",
+                "inputPrompt": "MM/DD/YYYY",
+                "defaultValue": "",
+                "outputID": "end_date",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "iTeoAFJ",
+                  "questionValue": "Streamers who have been on Twitch for a certain amount of time"
+                },
+                "type": "ConjureFormItem"
+              }
+            },
+            "1YcMLWO": {
+              "itemID": "1YcMLWO",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "2",
+                "paddingBelowDescription": "2",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#b19dd8",
+                "colorInputBackground": "#4b367c",
+                "colorInputText": "#b19dd8",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "How do you want to specify the specific streamer?",
+                "questionDescription": "",
+                "questionType": "multipleChoice",
+                "outputID": "specify_streamer_option",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "iTeoAFJ",
+                  "questionValue": "A streamer with a specific username or ID"
+                },
+                "type": "ConjureFormItem",
+                "multipleChoiceType": "standard",
+                "minSelected": "1",
+                "maxSelected": 1,
+                "choices": [
+                  "By their username",
+                  "By their Twitch ID"
+                ]
+              }
+            },
+            "jh3uFiA": {
+              "itemID": "jh3uFiA",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "2",
+                "paddingBelowDescription": "2",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#b19dd8",
+                "colorInputBackground": "#4b367c",
+                "colorInputText": "#b19dd8",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "Do you want to hardcode for a specific streamer?",
+                "questionDescription": "If you say no, the code we generate will be able to search for any given streamer",
+                "questionType": "multipleChoice",
+                "outputID": "hardcode_streamer",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "iTeoAFJ",
+                  "questionValue": "A streamer with a specific username or ID"
+                },
+                "type": "ConjureFormItem",
+                "multipleChoiceType": "standard",
+                "minSelected": "1",
+                "maxSelected": 1,
+                "choices": [
+                  "No",
+                  "Yes"
+                ]
+              }
+            },
+            "xNlNf9w": {
+              "itemID": "xNlNf9w",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "2",
+                "paddingBelowDescription": "2",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#262626",
+                "colorInputBackground": "#EFD6FE",
+                "colorInputText": "#262626",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "What is the name or ID of the streamer?",
+                "questionDescription": "",
+                "questionType": "input",
+                "inputType": "string",
+                "inputPrompt": "",
+                "defaultValue": "",
+                "outputID": "streamer_id",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "jh3uFiA",
+                  "questionValue": "Yes"
+                },
+                "type": "ConjureFormItem"
+              }
+            }
+          },
+          "order": [
+            {
+              "type": "ConjureFormItem",
+              "id": "mVAmp9h"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "iTeoAFJ"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "UcxDzrF"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "9KOYZ4s"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "gwguLPM"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "SKWu5KM"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "R9bvec9"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "pQgsGG6"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "1YcMLWO"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "jh3uFiA"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "xNlNf9w"
+            }
+          ],
+          "formID": "lWhYGoI",
+          "formDetails": {
+            "containerType": "card",
+            "outputID": "scrape_streamers",
+            "maxForms": 1,
+            "newSubformButtonText": "Add New",
+            "renderConditionally": true,
+            "renderCondition": {
+              "questionID": "uzrYpzl",
+              "questionValue": "Streamer Profiles"
+            },
+            "type": "ConjureForm"
+          },
+          "appearance": {
+            "paddingTop": "40",
+            "paddingSides": "20",
+            "paddingBottom": "40",
+            "colorControlButtonBackground": "#262626",
+            "colorControlButtonText": "#ffffff",
+            "colorBackground": "#4b367c",
+            "colorCardShadow": "black"
+          }
+        },
+        "hQrgmS8": {
+          "subforms": {},
+          "items": {
+            "DVbA6Ow": {
+              "itemID": "DVbA6Ow",
+              "itemType": "text",
+              "textDetails": {
+                "descriptionText": "",
+                "titleText": "",
+                "sectionTitleText": "Scrape Livestreams",
+                "outputID": "DVbA6Ow",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem"
+              },
+              "appearance": {
+                "paddingTop": "40",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowSectionTitle": "2",
+                "paddingBelowRegularTitle": "2",
+                "colorSectionTitleText": "#4b367c",
+                "colorSectionTitleBackground": "#b19dd8",
+                "colorTitleText": "#262626",
+                "colorDescriptionText": "#b19dd8"
+              }
+            },
+            "14Hbncp": {
+              "itemID": "14Hbncp",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "5",
+                "paddingBelowDescription": "10",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#b19dd8",
+                "colorInputBackground": "#4b367c",
+                "colorInputText": "#b19dd8",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "What kind of livestreams are you looking for?",
+                "questionDescription": "Select all that apply. Selecting multiple will combine them.",
+                "questionType": "multipleChoice",
+                "outputID": "livestream_params",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem",
+                "multipleChoiceType": "standard",
+                "minSelected": "0",
+                "maxSelected": "3",
+                "choices": [
+                  "Livestreams within a certain view range",
+                  "Livestreams by a specific streamer",
+                  "Livestreams by game/category"
+                ]
+              }
+            },
+            "3Rz3CDu": {
+              "itemID": "3Rz3CDu",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "5",
+                "paddingBelowDescription": "10",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#262626",
+                "colorInputBackground": "#EFD6FE",
+                "colorInputText": "#262626",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "Minimum number of views",
+                "questionDescription": "Filter out all livestreams with fewer views than this.",
+                "questionType": "input",
+                "inputType": "number",
+                "inputPrompt": "prompt...",
+                "defaultValue": "",
+                "outputID": "min_views",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "14Hbncp",
+                  "questionValue": "Livestreams within a certain view range"
+                },
+                "type": "ConjureFormItem"
+              }
+            },
+            "0aWUHk2": {
+              "itemID": "0aWUHk2",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "5",
+                "paddingBelowDescription": "10",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#262626",
+                "colorInputBackground": "#EFD6FE",
+                "colorInputText": "#262626",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "Maximum number of views",
+                "questionDescription": "Filter out all livestreams with more views than this.",
+                "questionType": "input",
+                "inputType": "number",
+                "inputPrompt": "",
+                "defaultValue": "25000",
+                "outputID": "max_views",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "14Hbncp",
+                  "questionValue": "Livestreams within a certain view range"
+                },
+                "type": "ConjureFormItem"
+              }
+            },
+            "TANqp05": {
+              "itemID": "TANqp05",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "2",
+                "paddingBelowDescription": "2",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#b19dd8",
+                "colorInputBackground": "#4b367c",
+                "colorInputText": "#b19dd8",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "Hardcode game/category?",
+                "questionDescription": "If you say no, the generated code will be able to search for any given game/category",
+                "questionType": "multipleChoice",
+                "outputID": "hardcode_game_option",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "14Hbncp",
+                  "questionValue": "Livestreams by game/category"
+                },
+                "type": "ConjureFormItem",
+                "multipleChoiceType": "standard",
+                "minSelected": "1",
+                "maxSelected": 1,
+                "choices": [
+                  "No",
+                  "Yes"
+                ]
+              }
+            },
+            "6oTNWS6": {
+              "itemID": "6oTNWS6",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "2",
+                "paddingBelowDescription": "2",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#262626",
+                "colorInputBackground": "#EFD6FE",
+                "colorInputText": "#262626",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "Hardcoded game/category name",
+                "questionDescription": "",
+                "questionType": "input",
+                "inputType": "string",
+                "inputPrompt": "",
+                "defaultValue": "",
+                "outputID": "hardcoded_game_name",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "TANqp05",
+                  "questionValue": "Yes"
+                },
+                "type": "ConjureFormItem"
+              }
+            },
+            "6fmQ6WV": {
+              "itemID": "6fmQ6WV",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "2",
+                "paddingBelowDescription": "2",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#b19dd8",
+                "colorInputBackground": "#4b367c",
+                "colorInputText": "#b19dd8",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "Hardcode streamer?",
+                "questionDescription": "If you say no, the generated code will be able to search for any given streamer",
+                "questionType": "multipleChoice",
+                "outputID": "hardcode_streamer_option",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "14Hbncp",
+                  "questionValue": "Livestreams by a specific streamer"
+                },
+                "type": "ConjureFormItem",
+                "multipleChoiceType": "standard",
+                "minSelected": "1",
+                "maxSelected": 1,
+                "choices": [
+                  "No",
+                  "Yes"
+                ]
+              }
+            },
+            "fOwxuiY": {
+              "itemID": "fOwxuiY",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "2",
+                "paddingBelowDescription": "2",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#b19dd8",
+                "colorInputBackground": "#4b367c",
+                "colorInputText": "#b19dd8",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "How do you want to specify the streamer?",
+                "questionDescription": "",
+                "questionType": "multipleChoice",
+                "outputID": "specify_streamer_option",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "14Hbncp",
+                  "questionValue": "Livestreams by a specific streamer"
+                },
+                "type": "ConjureFormItem",
+                "multipleChoiceType": "standard",
+                "minSelected": "1",
+                "maxSelected": 1,
+                "choices": [
+                  "By their Twitch ID",
+                  "By their username"
+                ]
+              }
+            },
+            "8kt8VHQ": {
+              "itemID": "8kt8VHQ",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "2",
+                "paddingBelowDescription": "2",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8",
+                "colorSelectedOption": "#262626",
+                "colorInputBackground": "#EFD6FE",
+                "colorInputText": "#262626",
+                "colorInputBorder": "#b19dd8"
+              },
+              "questionDetails": {
+                "questionTitle": "What is the name or ID of the streamer?",
+                "questionDescription": "",
+                "questionType": "input",
+                "inputType": "string",
+                "inputPrompt": "",
+                "defaultValue": "",
+                "outputID": "hardcoded_streamer",
+                "renderConditionally": true,
+                "renderCondition": {
+                  "questionID": "6fmQ6WV",
+                  "questionValue": "Yes"
+                },
+                "type": "ConjureFormItem"
+              }
+            }
+          },
+          "order": [
+            {
+              "type": "ConjureFormItem",
+              "id": "DVbA6Ow"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "14Hbncp"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "3Rz3CDu"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "0aWUHk2"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "TANqp05"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "6oTNWS6"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "fOwxuiY"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "6fmQ6WV"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "8kt8VHQ"
+            }
+          ],
+          "formID": "hQrgmS8",
+          "formDetails": {
+            "containerType": "card",
+            "outputID": "scrape_livestreams",
+            "maxForms": 1,
+            "newSubformButtonText": "Add New",
+            "renderConditionally": true,
+            "renderCondition": {
+              "questionID": "uzrYpzl",
+              "questionValue": "Livestreams"
+            },
+            "type": "ConjureForm"
+          },
+          "appearance": {
+            "paddingTop": "40",
+            "paddingSides": "20",
+            "paddingBottom": "40",
+            "colorControlButtonBackground": "#262626",
+            "colorControlButtonText": "#ffffff",
+            "colorBackground": "#4b367c",
+            "colorCardShadow": "black"
+          }
+        },
+        "LQYe8Pp": {
+          "subforms": {
+            "EF3ioJ4": {
+              "subforms": {},
+              "items": {
+                "QaLy0Qi": {
+                  "itemID": "QaLy0Qi",
+                  "itemType": "question",
+                  "textDetails": {
+                    "descriptionText": "Description",
+                    "titleText": "Title",
+                    "sectionTitleText": "Section Title",
+                    "renderConditionally": false,
+                    "renderCondition": {
+                      "questionID": false,
+                      "questionValue": false
+                    }
+                  },
+                  "appearance": {
+                    "paddingTop": "10",
+                    "paddingBottom": "10",
+                    "paddingSides": "10",
+                    "paddingBelowTitle": "2",
+                    "paddingBelowDescription": "2",
+                    "colorTitleText": "#b19dd8",
+                    "colorDescriptionText": "#b19dd8",
+                    "colorSelectedOption": "#b19dd8",
+                    "colorInputBackground": "#3a2960",
+                    "colorInputText": "#b19dd8",
+                    "colorInputBorder": "#b19dd8"
+                  },
+                  "questionDetails": {
+                    "questionTitle": "What do you want to sort by?",
+                    "questionDescription": "",
+                    "questionType": "multipleChoice",
+                    "outputID": "sort_type",
+                    "renderConditionally": false,
+                    "renderCondition": {
+                      "questionID": false,
+                      "questionValue": false
+                    },
+                    "type": "ConjureFormItem",
+                    "multipleChoiceType": "standard",
+                    "minSelected": "1",
+                    "maxSelected": 1,
+                    "choices": [
+                      "By views",
+                      "By followers",
+                      "By subscribers",
+                      "By streamer ID",
+                      "By streamer name (alphabetically)",
+                      "By game/category played (alphabetically)"
+                    ]
+                  }
+                },
+                "z3iO8xX": {
+                  "itemID": "z3iO8xX",
+                  "itemType": "question",
+                  "textDetails": {
+                    "descriptionText": "Description",
+                    "titleText": "Title",
+                    "sectionTitleText": "Section Title",
+                    "renderConditionally": false,
+                    "renderCondition": {
+                      "questionID": false,
+                      "questionValue": false
+                    }
+                  },
+                  "appearance": {
+                    "paddingTop": "10",
+                    "paddingBottom": "10",
+                    "paddingSides": "10",
+                    "paddingBelowTitle": "2",
+                    "paddingBelowDescription": "2",
+                    "colorTitleText": "#b19dd8",
+                    "colorDescriptionText": "#b19dd8",
+                    "colorSelectedOption": "#b19dd8",
+                    "colorInputBackground": "#3a2960",
+                    "colorInputText": "#b19dd8",
+                    "colorInputBorder": "#b19dd8"
+                  },
+                  "questionDetails": {
+                    "questionTitle": "Which direction do you want to sort?",
+                    "questionDescription": "",
+                    "questionType": "multipleChoice",
+                    "outputID": "sort_direction",
+                    "renderConditionally": false,
+                    "renderCondition": {
+                      "questionID": false,
+                      "questionValue": false
+                    },
+                    "type": "ConjureFormItem",
+                    "multipleChoiceType": "standard",
+                    "minSelected": "1",
+                    "maxSelected": 1,
+                    "choices": [
+                      "Big -> Small",
+                      "Small -> Big"
+                    ]
+                  }
+                }
+              },
+              "order": [
+                {
+                  "type": "ConjureFormItem",
+                  "id": "QaLy0Qi"
+                },
+                {
+                  "type": "ConjureFormItem",
+                  "id": "z3iO8xX"
+                }
+              ],
+              "formID": "EF3ioJ4",
+              "formDetails": {
+                "containerType": "subcard",
+                "outputID": "sort_params",
+                "maxForms": "3",
+                "newSubformButtonText": "Add Another Sort Parameter",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureForm"
+              },
+              "appearance": {
+                "paddingTop": "10",
+                "paddingSides": "20",
+                "paddingBottom": "10",
+                "colorControlButtonBackground": "#b19dd8",
+                "colorControlButtonText": "#4b367c",
+                "colorBackground": "#3a2960"
+              }
+            }
+          },
+          "items": {
+            "GWOf51H": {
+              "itemID": "GWOf51H",
+              "itemType": "text",
+              "textDetails": {
+                "descriptionText": "",
+                "titleText": "",
+                "sectionTitleText": "Sorting Results",
+                "outputID": "GWOf51H",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem"
+              },
+              "appearance": {
+                "paddingTop": "10",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowSectionTitle": "2",
+                "paddingBelowRegularTitle": "2",
+                "colorSectionTitleText": "#4b367c",
+                "colorSectionTitleBackground": "#b19dd8",
+                "colorTitleText": "#262626",
+                "colorDescriptionText": "#262626"
+              }
+            },
+            "5oO9KIS": {
+              "itemID": "5oO9KIS",
+              "itemType": "text",
+              "textDetails": {
+                "descriptionText": "Note: sorting will be done in the order you specify here.\\nThis means that if you choose \"By views\" and then \"By followers\", the result will be sorted by view count and ties will be broken by follower count.",
+                "titleText": "Sort the results of your API query",
+                "sectionTitleText": "",
+                "outputID": "5oO9KIS",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem"
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowSectionTitle": "2",
+                "paddingBelowRegularTitle": "2",
+                "colorSectionTitleText": "#b19dd8",
+                "colorSectionTitleBackground": "#b19dd8",
+                "colorTitleText": "#b19dd8",
+                "colorDescriptionText": "#b19dd8"
+              }
+            }
+          },
+          "order": [
+            {
+              "type": "ConjureFormItem",
+              "id": "GWOf51H"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "5oO9KIS"
+            },
+            {
+              "type": "ConjureForm",
+              "id": "EF3ioJ4"
+            }
+          ],
+          "formID": "LQYe8Pp",
+          "formDetails": {
+            "containerType": "card",
+            "outputID": "sorting_results",
+            "maxForms": 1,
+            "newSubformButtonText": "Add New",
+            "renderConditionally": false,
+            "renderCondition": {
+              "questionID": false,
+              "questionValue": false
+            },
+            "type": "ConjureForm"
+          },
+          "appearance": {
+            "paddingTop": "40",
+            "paddingSides": "20",
+            "paddingBottom": "40",
+            "colorControlButtonBackground": "#262626",
+            "colorControlButtonText": "#ffffff",
+            "colorBackground": "#4b367c",
+            "colorCardShadow": "black"
+          }
+        }
+      },
+      "items": {},
+      "order": [
+        {
+          "type": "ConjureForm",
+          "id": "bGUuS97"
+        },
+        {
+          "type": "ConjureForm",
+          "id": "kdtgqTK"
+        },
+        {
+          "type": "ConjureForm",
+          "id": "lWhYGoI"
+        },
+        {
+          "type": "ConjureForm",
+          "id": "hQrgmS8"
+        },
+        {
+          "type": "ConjureForm",
+          "id": "LQYe8Pp"
+        }
+      ],
+      "formID": "TuM3YR7",
+      "formDetails": {
+        "containerType": "page",
+        "outputID": "twitch_api",
+        "maxForms": 1,
+        "newSubformButtonText": "Add New",
+        "renderConditionally": false,
+        "renderCondition": {
+          "questionID": false,
+          "questionValue": false
+        },
+        "type": "ConjureForm"
+      },
+      "appearance": {
+        "paddingTop": "10",
+        "paddingSides": "20",
+        "paddingBottom": "10",
+        "colorControlButtonBackground": "#19171c",
+        "colorControlButtonText": "#19171c",
+        "colorBackground": "#19171c"
+      }
+    },
+    "F1jMWhk": {
+      "subforms": {},
+      "items": {},
+      "order": [],
+      "formID": "F1jMWhk",
+      "formDetails": {
+        "containerType": "page",
+        "outputID": "F1jMWhk",
+        "maxForms": 1,
+        "newSubformButtonText": "Add New",
+        "renderConditionally": false,
+        "renderCondition": {
+          "questionID": false,
+          "questionValue": false
+        },
+        "type": "ConjureForm"
+      },
+      "appearance": {
+        "paddingTop": "10",
+        "paddingSides": "20",
+        "paddingBottom": "10",
+        "colorControlButtonBackground": "#262626",
+        "colorControlButtonText": "#ffffff",
+        "colorBackground": "#eaeaea"
+      }
+    }
+  },
+  "items": {},
+  "order": [
+    {
+      "type": "ConjureForm",
+      "id": "TuM3YR7"
+    },
+    {
+      "type": "ConjureForm",
+      "id": "F1jMWhk"
+    }
+  ],
+  "formID": "L1qOzdL",
+  "formDetails": {
+    "containerType": "all",
+    "outputID": "L1qOzdL",
+    "maxForms": 1,
+    "newSubformButtonText": "Add New",
+    "renderConditionally": false,
+    "renderCondition": {
+      "questionID": false,
+      "questionValue": false
+    },
+    "type": "ConjureForm"
+  },
+  "appearance": {
+    "paddingTop": "10",
+    "paddingSides": "20",
+    "paddingBottom": "10",
+    "colorControlButtonBackground": "#262626",
+    "colorControlButtonText": "#ffffff"
+  }
+}

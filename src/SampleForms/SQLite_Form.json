@@ -1,0 +1,1391 @@
+{
+  "subforms": {
+    "osuQVNL": {
+      "subforms": {
+        "8NR4K8H": {
+          "subforms": {},
+          "items": {
+            "NZIg7wS": {
+              "itemID": "NZIg7wS",
+              "itemType": "text",
+              "textDetails": {
+                "descriptionText": "In this survey, you will be able to specify what you want your SQLite database to be like.\\nAt the end, Conjure will generate working SQLite code to match.",
+                "titleText": "About",
+                "sectionTitleText": "Conjure SQLite (UX Demo)",
+                "outputID": "NZIg7wS",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem"
+              },
+              "appearance": {
+                "paddingTop": "10",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowSectionTitle": "30",
+                "paddingBelowRegularTitle": "2",
+                "colorSectionTitleText": "#f4f4f4",
+                "colorSectionTitleBackground": "#3C6488",
+                "colorTitleText": "#2E4878",
+                "colorDescriptionText": "#2E4878"
+              }
+            },
+            "0KcwPMa": {
+              "itemID": "0KcwPMa",
+              "itemType": "text",
+              "textDetails": {
+                "descriptionText": "-  create.sql -> SQL code to create your db+ tables with your specified columns\\n- insert.sql ->SQL code to insert data into your tables\\n- query.sql -> File with some sample queries you can run on your database\\n- delete.sql -> SQL code to DROP tables from the database.",
+                "titleText": "",
+                "sectionTitleText": "",
+                "outputID": "0KcwPMa",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem"
+              },
+              "appearance": {
+                "paddingTop": "0",
+                "paddingBottom": "10",
+                "paddingSides": "40",
+                "paddingBelowSectionTitle": "2",
+                "paddingBelowRegularTitle": "2",
+                "colorSectionTitleText": "#f4f4f4",
+                "colorSectionTitleBackground": "#262626",
+                "colorTitleText": "#262626",
+                "colorDescriptionText": "#2E4878"
+              }
+            },
+            "gIRTyhm": {
+              "itemID": "gIRTyhm",
+              "itemType": "text",
+              "textDetails": {
+                "descriptionText": "This survey will generate SQL files to get you started with your new database!",
+                "titleText": "Output",
+                "sectionTitleText": "",
+                "outputID": "gIRTyhm",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem"
+              },
+              "appearance": {
+                "paddingTop": "10",
+                "paddingBottom": "0",
+                "paddingSides": "10",
+                "paddingBelowSectionTitle": "2",
+                "paddingBelowRegularTitle": "2",
+                "colorSectionTitleText": "#f4f4f4",
+                "colorSectionTitleBackground": "#2E4878",
+                "colorTitleText": "#2E4878",
+                "colorDescriptionText": "#2E4878"
+              }
+            },
+            "lFDJaeB": {
+              "itemID": "lFDJaeB",
+              "itemType": "text",
+              "textDetails": {
+                "descriptionText": "This is a demo of Conjure's UX. This survey is not attached to any code generators and will not create the sql files described above.",
+                "titleText": "Demo Note",
+                "sectionTitleText": "",
+                "outputID": "lFDJaeB",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem"
+              },
+              "appearance": {
+                "paddingTop": "10",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowSectionTitle": "2",
+                "paddingBelowRegularTitle": "2",
+                "colorSectionTitleText": "#f4f4f4",
+                "colorSectionTitleBackground": "#262626",
+                "colorTitleText": "#2E4878",
+                "colorDescriptionText": "#2E4878"
+              }
+            },
+            "tqunkYg": {
+              "itemID": "tqunkYg",
+              "itemType": "text",
+              "textDetails": {
+                "descriptionText": "If you decide to use a wrapper language for SQLite, Conjure will generate the above files in that language as well. ",
+                "titleText": "",
+                "sectionTitleText": "",
+                "outputID": "tqunkYg",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem"
+              },
+              "appearance": {
+                "paddingTop": "10",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowSectionTitle": "2",
+                "paddingBelowRegularTitle": "2",
+                "colorSectionTitleText": "#f4f4f4",
+                "colorSectionTitleBackground": "#262626",
+                "colorTitleText": "#262626",
+                "colorDescriptionText": "#2E4878"
+              }
+            }
+          },
+          "order": [
+            {
+              "type": "ConjureFormItem",
+              "id": "NZIg7wS"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "gIRTyhm"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "0KcwPMa"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "tqunkYg"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "lFDJaeB"
+            }
+          ],
+          "formID": "8NR4K8H",
+          "formDetails": {
+            "containerType": "card",
+            "outputID": "8NR4K8H",
+            "maxForms": 1,
+            "newSubformButtonText": "Add New",
+            "renderConditionally": false,
+            "renderCondition": {
+              "questionID": false,
+              "questionValue": false
+            },
+            "type": "ConjureForm"
+          },
+          "appearance": {
+            "paddingTop": "10",
+            "paddingSides": "20",
+            "paddingBottom": "10",
+            "colorControlButtonBackground": "#262626",
+            "colorControlButtonText": "#ffffff",
+            "colorBackground": "#f4f4f4",
+            "colorCardShadow": "#7c7c7c"
+          }
+        },
+        "KgSp1xG": {
+          "subforms": {},
+          "items": {
+            "PhFJmw5": {
+              "itemID": "PhFJmw5",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "40",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "2",
+                "paddingBelowDescription": "2",
+                "colorTitleText": "#2E4878",
+                "colorDescriptionText": "#2E4878",
+                "colorSelectedOption": "#2E4878",
+                "colorInputBackground": "#ffffff",
+                "colorInputText": "#2E4878",
+                "colorInputBorder": "#2E4878"
+              },
+              "questionDetails": {
+                "questionTitle": "Wrapper Languages",
+                "questionDescription": "(Select all that apply)",
+                "questionType": "multipleChoice",
+                "outputID": "languages",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem",
+                "multipleChoiceType": "standard",
+                "minSelected": 0,
+                "maxSelected": "6",
+                "choices": [
+                  "Python",
+                  "Ruby",
+                  "Java",
+                  "JS",
+                  "C",
+                  "C++"
+                ]
+              }
+            },
+            "DFTNmxa": {
+              "itemID": "DFTNmxa",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "40",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowTitle": "2",
+                "paddingBelowDescription": "2",
+                "colorTitleText": "#2E4878",
+                "colorDescriptionText": "#2E4878",
+                "colorSelectedOption": "#262626",
+                "colorInputBackground": "#ffffff",
+                "colorInputText": "#262626",
+                "colorInputBorder": "#cccccc"
+              },
+              "questionDetails": {
+                "questionTitle": "Database Name",
+                "questionDescription": "Your database will be created with the filename [db_name].db",
+                "questionType": "input",
+                "inputType": "string",
+                "inputPrompt": "[db_name]",
+                "defaultValue": "",
+                "outputID": "db_name",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem"
+              }
+            }
+          },
+          "order": [
+            {
+              "type": "ConjureFormItem",
+              "id": "DFTNmxa"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "PhFJmw5"
+            }
+          ],
+          "formID": "KgSp1xG",
+          "formDetails": {
+            "containerType": "card",
+            "outputID": "about",
+            "maxForms": 1,
+            "newSubformButtonText": "Add New",
+            "renderConditionally": false,
+            "renderCondition": {
+              "questionID": false,
+              "questionValue": false
+            },
+            "type": "ConjureForm"
+          },
+          "appearance": {
+            "paddingTop": "10",
+            "paddingSides": "20",
+            "paddingBottom": "10",
+            "colorControlButtonBackground": "#262626",
+            "colorControlButtonText": "#ffffff",
+            "colorBackground": "#f4f4f4",
+            "colorCardShadow": "#7c7c7c"
+          }
+        },
+        "4BZDBj3": {
+          "subforms": {},
+          "items": {
+            "YQvJzyi": {
+              "itemID": "YQvJzyi",
+              "itemType": "text",
+              "textDetails": {
+                "descriptionText": "",
+                "titleText": "",
+                "sectionTitleText": "0. About Demo",
+                "outputID": "YQvJzyi",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem"
+              },
+              "appearance": {
+                "paddingTop": "10",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowSectionTitle": "2",
+                "paddingBelowRegularTitle": "2",
+                "colorSectionTitleText": "#f4f4f4",
+                "colorSectionTitleBackground": "#1382E4",
+                "colorTitleText": "#262626",
+                "colorDescriptionText": "#262626"
+              }
+            }
+          },
+          "order": [
+            {
+              "type": "ConjureFormItem",
+              "id": "YQvJzyi"
+            }
+          ],
+          "formID": "4BZDBj3",
+          "formDetails": {
+            "containerType": "card",
+            "outputID": "4BZDBj3",
+            "maxForms": 1,
+            "newSubformButtonText": "Add New",
+            "renderConditionally": false,
+            "renderCondition": {
+              "questionID": false,
+              "questionValue": false
+            },
+            "type": "ConjureForm"
+          },
+          "appearance": {
+            "paddingTop": "10",
+            "paddingSides": "20",
+            "paddingBottom": "10",
+            "colorControlButtonBackground": "#262626",
+            "colorControlButtonText": "#ffffff",
+            "colorBackground": "#F2FEFF",
+            "colorCardShadow": "#F2FEFF"
+          }
+        },
+        "T9HYq2o": {
+          "subforms": {},
+          "items": {
+            "S3SRyUg": {
+              "itemID": "S3SRyUg",
+              "itemType": "text",
+              "textDetails": {
+                "descriptionText": "",
+                "titleText": "",
+                "sectionTitleText": "1. DB Details",
+                "outputID": "S3SRyUg",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem"
+              },
+              "appearance": {
+                "paddingTop": "10",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowSectionTitle": "2",
+                "paddingBelowRegularTitle": "2",
+                "colorSectionTitleText": "#f4f4f4",
+                "colorSectionTitleBackground": "#1382E4",
+                "colorTitleText": "#262626",
+                "colorDescriptionText": "#262626"
+              }
+            }
+          },
+          "order": [
+            {
+              "type": "ConjureFormItem",
+              "id": "S3SRyUg"
+            }
+          ],
+          "formID": "T9HYq2o",
+          "formDetails": {
+            "containerType": "card",
+            "outputID": "T9HYq2o",
+            "maxForms": 1,
+            "newSubformButtonText": "Add New",
+            "renderConditionally": false,
+            "renderCondition": {
+              "questionID": false,
+              "questionValue": false
+            },
+            "type": "ConjureForm"
+          },
+          "appearance": {
+            "paddingTop": "10",
+            "paddingSides": "20",
+            "paddingBottom": "10",
+            "colorControlButtonBackground": "#262626",
+            "colorControlButtonText": "#ffffff",
+            "colorBackground": "#F2FEFF",
+            "colorCardShadow": "#F2FEFF"
+          }
+        }
+      },
+      "items": {},
+      "order": [
+        {
+          "type": "ConjureForm",
+          "id": "4BZDBj3"
+        },
+        {
+          "type": "ConjureForm",
+          "id": "8NR4K8H"
+        },
+        {
+          "type": "ConjureForm",
+          "id": "T9HYq2o"
+        },
+        {
+          "type": "ConjureForm",
+          "id": "KgSp1xG"
+        }
+      ],
+      "formID": "osuQVNL",
+      "formDetails": {
+        "containerType": "page",
+        "outputID": "intro_page",
+        "maxForms": 1,
+        "newSubformButtonText": "Add New",
+        "renderConditionally": false,
+        "renderCondition": {
+          "questionID": false,
+          "questionValue": false
+        },
+        "type": "ConjureForm"
+      },
+      "appearance": {
+        "paddingTop": "10",
+        "paddingSides": "20",
+        "paddingBottom": "10",
+        "colorControlButtonBackground": "#262626",
+        "colorControlButtonText": "#ffffff",
+        "colorBackground": "#F2FEFF"
+      }
+    },
+    "y01LCIO": {
+      "subforms": {
+        "AHBA3Fj": {
+          "subforms": {},
+          "items": {
+            "ZJcL6we": {
+              "itemID": "ZJcL6we",
+              "itemType": "text",
+              "textDetails": {
+                "descriptionText": "",
+                "titleText": "",
+                "sectionTitleText": "2. Tables",
+                "outputID": "ZJcL6we",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem"
+              },
+              "appearance": {
+                "paddingTop": "10",
+                "paddingBottom": "0",
+                "paddingSides": "10",
+                "paddingBelowSectionTitle": "2",
+                "paddingBelowRegularTitle": "2",
+                "colorSectionTitleText": "#f4f4f4",
+                "colorSectionTitleBackground": "#1382E4",
+                "colorTitleText": "#262626",
+                "colorDescriptionText": "#262626"
+              }
+            }
+          },
+          "order": [
+            {
+              "type": "ConjureFormItem",
+              "id": "ZJcL6we"
+            }
+          ],
+          "formID": "AHBA3Fj",
+          "formDetails": {
+            "containerType": "card",
+            "outputID": "AHBA3Fj",
+            "maxForms": 1,
+            "newSubformButtonText": "Add New",
+            "renderConditionally": false,
+            "renderCondition": {
+              "questionID": false,
+              "questionValue": false
+            },
+            "type": "ConjureForm"
+          },
+          "appearance": {
+            "paddingTop": "10",
+            "paddingSides": "20",
+            "paddingBottom": "0",
+            "colorControlButtonBackground": "#262626",
+            "colorControlButtonText": "#ffffff",
+            "colorBackground": "#F2FEFF",
+            "colorCardShadow": "#F2FEFF"
+          }
+        },
+        "QWgJjqK": {
+          "subforms": {
+            "7G0f1gM": {
+              "subforms": {},
+              "items": {
+                "yIkv6Ch": {
+                  "itemID": "yIkv6Ch",
+                  "itemType": "question",
+                  "textDetails": {
+                    "descriptionText": "Description",
+                    "titleText": "Title",
+                    "sectionTitleText": "Section Title",
+                    "renderConditionally": false,
+                    "renderCondition": {
+                      "questionID": false,
+                      "questionValue": false
+                    }
+                  },
+                  "appearance": {
+                    "paddingTop": "10",
+                    "paddingBottom": "10",
+                    "paddingSides": "10",
+                    "paddingBelowTitle": "2",
+                    "paddingBelowDescription": "2",
+                    "colorTitleText": "#2E4878",
+                    "colorDescriptionText": "#262626",
+                    "colorSelectedOption": "#262626",
+                    "colorInputBackground": "#ffffff",
+                    "colorInputText": "#262626",
+                    "colorInputBorder": "#cccccc"
+                  },
+                  "questionDetails": {
+                    "questionTitle": "Column Name",
+                    "questionDescription": "",
+                    "questionType": "input",
+                    "inputType": "string",
+                    "inputPrompt": "",
+                    "defaultValue": "",
+                    "outputID": "column_name",
+                    "renderConditionally": false,
+                    "renderCondition": {
+                      "questionID": false,
+                      "questionValue": false
+                    },
+                    "type": "ConjureFormItem"
+                  }
+                },
+                "0qj5zGx": {
+                  "itemID": "0qj5zGx",
+                  "itemType": "question",
+                  "textDetails": {
+                    "descriptionText": "Description",
+                    "titleText": "Title",
+                    "sectionTitleText": "Section Title",
+                    "renderConditionally": false,
+                    "renderCondition": {
+                      "questionID": false,
+                      "questionValue": false
+                    }
+                  },
+                  "appearance": {
+                    "paddingTop": "10",
+                    "paddingBottom": "10",
+                    "paddingSides": "10",
+                    "paddingBelowTitle": "2",
+                    "paddingBelowDescription": "2",
+                    "colorTitleText": "#2E4878",
+                    "colorDescriptionText": "#262626",
+                    "colorSelectedOption": "#262626",
+                    "colorInputBackground": "#ffffff",
+                    "colorInputText": "#262626",
+                    "colorInputBorder": "#2E4878"
+                  },
+                  "questionDetails": {
+                    "questionTitle": "Column Type",
+                    "questionDescription": "",
+                    "questionType": "multipleChoice",
+                    "outputID": "column_type",
+                    "renderConditionally": false,
+                    "renderCondition": {
+                      "questionID": false,
+                      "questionValue": false
+                    },
+                    "type": "ConjureFormItem",
+                    "multipleChoiceType": "dropdown",
+                    "minSelected": "1",
+                    "maxSelected": 1,
+                    "choices": [
+                      "INT",
+                      "CHARACTER",
+                      "VARCHAR",
+                      "TEXT",
+                      "BLOB",
+                      "REAL",
+                      "DOUBLE",
+                      "FLOAT",
+                      "DECIMAL",
+                      "BOOLEAN",
+                      "DATE",
+                      "DATETIME"
+                    ]
+                  }
+                },
+                "79b49ux": {
+                  "itemID": "79b49ux",
+                  "itemType": "question",
+                  "textDetails": {
+                    "descriptionText": "Description",
+                    "titleText": "Title",
+                    "sectionTitleText": "Section Title",
+                    "renderConditionally": false,
+                    "renderCondition": {
+                      "questionID": false,
+                      "questionValue": false
+                    }
+                  },
+                  "appearance": {
+                    "paddingTop": "10",
+                    "paddingBottom": "10",
+                    "paddingSides": "10",
+                    "paddingBelowTitle": "2",
+                    "paddingBelowDescription": "2",
+                    "colorTitleText": "#2E4878",
+                    "colorDescriptionText": "#262626",
+                    "colorSelectedOption": "#262626",
+                    "colorInputBackground": "#ffffff",
+                    "colorInputText": "#262626",
+                    "colorInputBorder": "#cccccc"
+                  },
+                  "questionDetails": {
+                    "questionTitle": "Length",
+                    "questionDescription": "",
+                    "questionType": "input",
+                    "outputID": "length",
+                    "renderConditionally": true,
+                    "renderCondition": {
+                      "questionID": "0qj5zGx",
+                      "questionValue": "CHARACTER"
+                    },
+                    "type": "ConjureFormItem",
+                    "inputType": "number",
+                    "inputPrompt": "",
+                    "defaultValue": "40"
+                  }
+                },
+                "OjQcpaK": {
+                  "itemID": "OjQcpaK",
+                  "itemType": "question",
+                  "textDetails": {
+                    "descriptionText": "Description",
+                    "titleText": "Title",
+                    "sectionTitleText": "Section Title",
+                    "renderConditionally": false,
+                    "renderCondition": {
+                      "questionID": false,
+                      "questionValue": false
+                    }
+                  },
+                  "appearance": {
+                    "paddingTop": "10",
+                    "paddingBottom": "10",
+                    "paddingSides": "10",
+                    "paddingBelowTitle": "2",
+                    "paddingBelowDescription": "2",
+                    "colorTitleText": "#2E4878",
+                    "colorDescriptionText": "#262626",
+                    "colorSelectedOption": "#262626",
+                    "colorInputBackground": "#ffffff",
+                    "colorInputText": "#262626",
+                    "colorInputBorder": "#cccccc"
+                  },
+                  "questionDetails": {
+                    "questionTitle": "Length",
+                    "questionDescription": "",
+                    "questionType": "input",
+                    "inputType": "number",
+                    "inputPrompt": "",
+                    "defaultValue": "255",
+                    "outputID": "length",
+                    "renderConditionally": true,
+                    "renderCondition": {
+                      "questionID": "0qj5zGx",
+                      "questionValue": "VARCHAR"
+                    },
+                    "type": "ConjureFormItem"
+                  }
+                },
+                "506htNw": {
+                  "itemID": "506htNw",
+                  "itemType": "question",
+                  "textDetails": {
+                    "descriptionText": "Description",
+                    "titleText": "Title",
+                    "sectionTitleText": "Section Title",
+                    "renderConditionally": false,
+                    "renderCondition": {
+                      "questionID": false,
+                      "questionValue": false
+                    }
+                  },
+                  "appearance": {
+                    "paddingTop": "10",
+                    "paddingBottom": "10",
+                    "paddingSides": "10",
+                    "paddingBelowTitle": "2",
+                    "paddingBelowDescription": "2",
+                    "colorTitleText": "#2E4878",
+                    "colorDescriptionText": "#2E4878",
+                    "colorSelectedOption": "#262626",
+                    "colorInputBackground": "#ffffff",
+                    "colorInputText": "#262626",
+                    "colorInputBorder": "#ffffff"
+                  },
+                  "questionDetails": {
+                    "questionTitle": "Number of Digits Left of Decimal Point",
+                    "questionDescription": "(leave blank for default)",
+                    "questionType": "input",
+                    "outputID": "digits_to_left",
+                    "renderConditionally": true,
+                    "renderCondition": {
+                      "questionID": "0qj5zGx",
+                      "questionValue": "DECIMAL"
+                    },
+                    "type": "ConjureFormItem",
+                    "inputType": "number",
+                    "inputPrompt": "",
+                    "defaultValue": "10"
+                  }
+                },
+                "07sTEOy": {
+                  "itemID": "07sTEOy",
+                  "itemType": "question",
+                  "textDetails": {
+                    "descriptionText": "Description",
+                    "titleText": "Title",
+                    "sectionTitleText": "Section Title",
+                    "renderConditionally": false,
+                    "renderCondition": {
+                      "questionID": false,
+                      "questionValue": false
+                    }
+                  },
+                  "appearance": {
+                    "paddingTop": "10",
+                    "paddingBottom": "10",
+                    "paddingSides": "10",
+                    "paddingBelowTitle": "2",
+                    "paddingBelowDescription": "2",
+                    "colorTitleText": "#2E4878",
+                    "colorDescriptionText": "#2E4878",
+                    "colorSelectedOption": "#262626",
+                    "colorInputBackground": "#ffffff",
+                    "colorInputText": "#262626",
+                    "colorInputBorder": "#ffffff"
+                  },
+                  "questionDetails": {
+                    "questionTitle": "Number of Digits Right of Decimal Point",
+                    "questionDescription": "(leave blank for default)",
+                    "questionType": "input",
+                    "inputType": "number",
+                    "inputPrompt": "prompt...",
+                    "defaultValue": "5",
+                    "outputID": "digits_to_right",
+                    "renderConditionally": true,
+                    "renderCondition": {
+                      "questionID": "0qj5zGx",
+                      "questionValue": "DECIMAL"
+                    },
+                    "type": "ConjureFormItem"
+                  }
+                },
+                "yEv3irL": {
+                  "itemID": "yEv3irL",
+                  "itemType": "question",
+                  "textDetails": {
+                    "descriptionText": "Description",
+                    "titleText": "Title",
+                    "sectionTitleText": "Section Title",
+                    "renderConditionally": false,
+                    "renderCondition": {
+                      "questionID": false,
+                      "questionValue": false
+                    }
+                  },
+                  "appearance": {
+                    "paddingTop": "10",
+                    "paddingBottom": "10",
+                    "paddingSides": "10",
+                    "paddingBelowTitle": "2",
+                    "paddingBelowDescription": "2",
+                    "colorTitleText": "#2E4878",
+                    "colorDescriptionText": "#2E4878",
+                    "colorSelectedOption": "#2E4878",
+                    "colorInputBackground": "#ffffff",
+                    "colorInputText": "#2E4878",
+                    "colorInputBorder": "#2E4878"
+                  },
+                  "questionDetails": {
+                    "questionTitle": "Primary Key?",
+                    "questionDescription": "(Primary keys can be comprised of multiple columns in the same table)",
+                    "questionType": "multipleChoice",
+                    "outputID": "primary_key",
+                    "renderConditionally": false,
+                    "renderCondition": {
+                      "questionID": false,
+                      "questionValue": false
+                    },
+                    "type": "ConjureFormItem",
+                    "multipleChoiceType": "standard",
+                    "minSelected": "1",
+                    "maxSelected": 1,
+                    "choices": [
+                      "No",
+                      "Yes"
+                    ]
+                  }
+                },
+                "CkFtD4u": {
+                  "itemID": "CkFtD4u",
+                  "itemType": "question",
+                  "textDetails": {
+                    "descriptionText": "Description",
+                    "titleText": "Title",
+                    "sectionTitleText": "Section Title",
+                    "renderConditionally": false,
+                    "renderCondition": {
+                      "questionID": false,
+                      "questionValue": false
+                    }
+                  },
+                  "appearance": {
+                    "paddingTop": "10",
+                    "paddingBottom": "10",
+                    "paddingSides": "10",
+                    "paddingBelowTitle": "2",
+                    "paddingBelowDescription": "2",
+                    "colorTitleText": "#2E4878",
+                    "colorDescriptionText": "#2E4878",
+                    "colorSelectedOption": "#2E4878",
+                    "colorInputBackground": "#ffffff",
+                    "colorInputText": "#2E4878",
+                    "colorInputBorder": "#2E4878"
+                  },
+                  "questionDetails": {
+                    "questionTitle": "\"Not Null\" Flag Active?",
+                    "questionDescription": "",
+                    "questionType": "multipleChoice",
+                    "outputID": "not_null",
+                    "renderConditionally": true,
+                    "renderCondition": {
+                      "questionID": "yEv3irL",
+                      "questionValue": "No"
+                    },
+                    "type": "ConjureFormItem",
+                    "multipleChoiceType": "standard",
+                    "minSelected": "1",
+                    "maxSelected": 1,
+                    "choices": [
+                      "No",
+                      "Yes"
+                    ]
+                  }
+                },
+                "WJBGTRN": {
+                  "itemID": "WJBGTRN",
+                  "itemType": "question",
+                  "textDetails": {
+                    "descriptionText": "Description",
+                    "titleText": "Title",
+                    "sectionTitleText": "Section Title",
+                    "renderConditionally": false,
+                    "renderCondition": {
+                      "questionID": false,
+                      "questionValue": false
+                    }
+                  },
+                  "appearance": {
+                    "paddingTop": "10",
+                    "paddingBottom": "10",
+                    "paddingSides": "10",
+                    "paddingBelowTitle": "2",
+                    "paddingBelowDescription": "2",
+                    "colorTitleText": "#2E4878",
+                    "colorDescriptionText": "#262626",
+                    "colorSelectedOption": "#2E4878",
+                    "colorInputBackground": "#ffffff",
+                    "colorInputText": "#2E4878",
+                    "colorInputBorder": "#2E4878"
+                  },
+                  "questionDetails": {
+                    "questionTitle": "Unique?",
+                    "questionDescription": "",
+                    "questionType": "multipleChoice",
+                    "outputID": "unique",
+                    "renderConditionally": true,
+                    "renderCondition": {
+                      "questionID": "yEv3irL",
+                      "questionValue": "No"
+                    },
+                    "type": "ConjureFormItem",
+                    "multipleChoiceType": "standard",
+                    "minSelected": "1",
+                    "maxSelected": 1,
+                    "choices": [
+                      "No",
+                      "Yes"
+                    ]
+                  }
+                },
+                "O9EtTUG": {
+                  "itemID": "O9EtTUG",
+                  "itemType": "question",
+                  "textDetails": {
+                    "descriptionText": "Description",
+                    "titleText": "Title",
+                    "sectionTitleText": "Section Title",
+                    "renderConditionally": false,
+                    "renderCondition": {
+                      "questionID": false,
+                      "questionValue": false
+                    }
+                  },
+                  "appearance": {
+                    "paddingTop": "10",
+                    "paddingBottom": "10",
+                    "paddingSides": "10",
+                    "paddingBelowTitle": "2",
+                    "paddingBelowDescription": "2",
+                    "colorTitleText": "#2E4878",
+                    "colorDescriptionText": "#262626",
+                    "colorSelectedOption": "#2E4878",
+                    "colorInputBackground": "#ffffff",
+                    "colorInputText": "#2E4878",
+                    "colorInputBorder": "#2E4878"
+                  },
+                  "questionDetails": {
+                    "questionTitle": "Foreign Key?",
+                    "questionDescription": "",
+                    "questionType": "multipleChoice",
+                    "outputID": "foreign_key",
+                    "renderConditionally": false,
+                    "renderCondition": {
+                      "questionID": false,
+                      "questionValue": false
+                    },
+                    "type": "ConjureFormItem",
+                    "multipleChoiceType": "standard",
+                    "minSelected": "1",
+                    "maxSelected": 1,
+                    "choices": [
+                      "No",
+                      "Yes"
+                    ]
+                  }
+                },
+                "kBru6s1": {
+                  "itemID": "kBru6s1",
+                  "itemType": "question",
+                  "textDetails": {
+                    "descriptionText": "Description",
+                    "titleText": "Title",
+                    "sectionTitleText": "Section Title",
+                    "renderConditionally": false,
+                    "renderCondition": {
+                      "questionID": false,
+                      "questionValue": false
+                    }
+                  },
+                  "appearance": {
+                    "paddingTop": "10",
+                    "paddingBottom": "10",
+                    "paddingSides": "10",
+                    "paddingBelowTitle": "2",
+                    "paddingBelowDescription": "2",
+                    "colorTitleText": "#2E4878",
+                    "colorDescriptionText": "#2E4878",
+                    "colorSelectedOption": "#262626",
+                    "colorInputBackground": "#ffffff",
+                    "colorInputText": "#262626",
+                    "colorInputBorder": "#cccccc"
+                  },
+                  "questionDetails": {
+                    "questionTitle": "Foreign Key Table",
+                    "questionDescription": "Make sure this matches the table name you specified in the form",
+                    "questionType": "input",
+                    "inputType": "string",
+                    "inputPrompt": "",
+                    "defaultValue": "",
+                    "outputID": "foreign_key_table",
+                    "renderConditionally": true,
+                    "renderCondition": {
+                      "questionID": "O9EtTUG",
+                      "questionValue": "Yes"
+                    },
+                    "type": "ConjureFormItem"
+                  }
+                },
+                "pUP7gR7": {
+                  "itemID": "pUP7gR7",
+                  "itemType": "question",
+                  "textDetails": {
+                    "descriptionText": "Description",
+                    "titleText": "Title",
+                    "sectionTitleText": "Section Title",
+                    "renderConditionally": false,
+                    "renderCondition": {
+                      "questionID": false,
+                      "questionValue": false
+                    }
+                  },
+                  "appearance": {
+                    "paddingTop": "10",
+                    "paddingBottom": "10",
+                    "paddingSides": "10",
+                    "paddingBelowTitle": "2",
+                    "paddingBelowDescription": "2",
+                    "colorTitleText": "#2E4878",
+                    "colorDescriptionText": "#2E4878",
+                    "colorSelectedOption": "#262626",
+                    "colorInputBackground": "#ffffff",
+                    "colorInputText": "#262626",
+                    "colorInputBorder": "#cccccc"
+                  },
+                  "questionDetails": {
+                    "questionTitle": "Foreign Key Column",
+                    "questionDescription": "Make sure this matches the column name you specified in the form",
+                    "questionType": "input",
+                    "inputType": "string",
+                    "inputPrompt": "",
+                    "defaultValue": "",
+                    "outputID": "foreign_key_column",
+                    "renderConditionally": true,
+                    "renderCondition": {
+                      "questionID": "O9EtTUG",
+                      "questionValue": "Yes"
+                    },
+                    "type": "ConjureFormItem"
+                  }
+                },
+                "PAvqr3y": {
+                  "itemID": "PAvqr3y",
+                  "itemType": "text",
+                  "textDetails": {
+                    "descriptionText": "",
+                    "titleText": "Column",
+                    "sectionTitleText": "",
+                    "outputID": "PAvqr3y",
+                    "renderConditionally": false,
+                    "renderCondition": {
+                      "questionID": false,
+                      "questionValue": false
+                    },
+                    "type": "ConjureFormItem"
+                  },
+                  "appearance": {
+                    "paddingTop": "0",
+                    "paddingBottom": "10",
+                    "paddingSides": "10",
+                    "paddingBelowSectionTitle": "2",
+                    "paddingBelowRegularTitle": "2",
+                    "colorSectionTitleText": "#f4f4f4",
+                    "colorSectionTitleBackground": "#262626",
+                    "colorTitleText": "#1382E4",
+                    "colorDescriptionText": "#262626"
+                  }
+                }
+              },
+              "order": [
+                {
+                  "type": "ConjureFormItem",
+                  "id": "PAvqr3y"
+                },
+                {
+                  "type": "ConjureFormItem",
+                  "id": "yIkv6Ch"
+                },
+                {
+                  "type": "ConjureFormItem",
+                  "id": "0qj5zGx"
+                },
+                {
+                  "type": "ConjureFormItem",
+                  "id": "79b49ux"
+                },
+                {
+                  "type": "ConjureFormItem",
+                  "id": "OjQcpaK"
+                },
+                {
+                  "type": "ConjureFormItem",
+                  "id": "506htNw"
+                },
+                {
+                  "type": "ConjureFormItem",
+                  "id": "07sTEOy"
+                },
+                {
+                  "type": "ConjureFormItem",
+                  "id": "yEv3irL"
+                },
+                {
+                  "type": "ConjureFormItem",
+                  "id": "CkFtD4u"
+                },
+                {
+                  "type": "ConjureFormItem",
+                  "id": "WJBGTRN"
+                },
+                {
+                  "type": "ConjureFormItem",
+                  "id": "O9EtTUG"
+                },
+                {
+                  "type": "ConjureFormItem",
+                  "id": "kBru6s1"
+                },
+                {
+                  "type": "ConjureFormItem",
+                  "id": "pUP7gR7"
+                }
+              ],
+              "formID": "7G0f1gM",
+              "formDetails": {
+                "containerType": "subcard",
+                "outputID": "columns",
+                "maxForms": "30",
+                "newSubformButtonText": "Add Another Column",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureForm"
+              },
+              "appearance": {
+                "paddingTop": "20",
+                "paddingSides": "20",
+                "paddingBottom": "20",
+                "colorControlButtonBackground": "#1382E4",
+                "colorControlButtonText": "#ffffff",
+                "colorBackground": "#eaeaea"
+              }
+            }
+          },
+          "items": {
+            "0HLs1BH": {
+              "itemID": "0HLs1BH",
+              "itemType": "question",
+              "textDetails": {
+                "descriptionText": "Description",
+                "titleText": "Title",
+                "sectionTitleText": "Section Title",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                }
+              },
+              "appearance": {
+                "paddingTop": "5",
+                "paddingBottom": "10",
+                "paddingSides": "40",
+                "paddingBelowTitle": "2",
+                "paddingBelowDescription": "2",
+                "colorTitleText": "#2E4878",
+                "colorDescriptionText": "#262626",
+                "colorSelectedOption": "#262626",
+                "colorInputBackground": "#ffffff",
+                "colorInputText": "#262626",
+                "colorInputBorder": "#cccccc"
+              },
+              "questionDetails": {
+                "questionTitle": "Table Name",
+                "questionDescription": "",
+                "questionType": "input",
+                "inputType": "string",
+                "inputPrompt": "",
+                "defaultValue": "",
+                "outputID": "table_name",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem"
+              }
+            },
+            "DRBQj49": {
+              "itemID": "DRBQj49",
+              "itemType": "text",
+              "textDetails": {
+                "descriptionText": "",
+                "titleText": "Columns",
+                "sectionTitleText": "",
+                "outputID": "DRBQj49",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem"
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowSectionTitle": "2",
+                "paddingBelowRegularTitle": "2",
+                "colorSectionTitleText": "#f4f4f4",
+                "colorSectionTitleBackground": "#262626",
+                "colorTitleText": "#1382E4",
+                "colorDescriptionText": "#262626"
+              }
+            },
+            "ABi5o0y": {
+              "itemID": "ABi5o0y",
+              "itemType": "text",
+              "textDetails": {
+                "descriptionText": "",
+                "titleText": "Table Details",
+                "sectionTitleText": "",
+                "outputID": "ABi5o0y",
+                "renderConditionally": false,
+                "renderCondition": {
+                  "questionID": false,
+                  "questionValue": false
+                },
+                "type": "ConjureFormItem"
+              },
+              "appearance": {
+                "paddingTop": "30",
+                "paddingBottom": "10",
+                "paddingSides": "10",
+                "paddingBelowSectionTitle": "2",
+                "paddingBelowRegularTitle": "2",
+                "colorSectionTitleText": "#f4f4f4",
+                "colorSectionTitleBackground": "#262626",
+                "colorTitleText": "#1382E4",
+                "colorDescriptionText": "#262626"
+              }
+            }
+          },
+          "order": [
+            {
+              "type": "ConjureFormItem",
+              "id": "ABi5o0y"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "0HLs1BH"
+            },
+            {
+              "type": "ConjureFormItem",
+              "id": "DRBQj49"
+            },
+            {
+              "type": "ConjureForm",
+              "id": "7G0f1gM"
+            }
+          ],
+          "formID": "QWgJjqK",
+          "formDetails": {
+            "containerType": "card",
+            "outputID": "tables",
+            "maxForms": "30",
+            "newSubformButtonText": "Add Another Table",
+            "renderConditionally": false,
+            "renderCondition": {
+              "questionID": false,
+              "questionValue": false
+            },
+            "type": "ConjureForm"
+          },
+          "appearance": {
+            "paddingTop": "10",
+            "paddingSides": "20",
+            "paddingBottom": "10",
+            "colorControlButtonBackground": "#4454C7",
+            "colorControlButtonText": "#ffffff",
+            "colorBackground": "#f4f4f4",
+            "colorCardShadow": "#7c7c7c"
+          }
+        }
+      },
+      "items": {},
+      "order": [
+        {
+          "type": "ConjureForm",
+          "id": "AHBA3Fj"
+        },
+        {
+          "type": "ConjureForm",
+          "id": "QWgJjqK"
+        }
+      ],
+      "formID": "y01LCIO",
+      "formDetails": {
+        "containerType": "page",
+        "outputID": "tables_page",
+        "maxForms": 1,
+        "newSubformButtonText": "Add New",
+        "renderConditionally": false,
+        "renderCondition": {
+          "questionID": false,
+          "questionValue": false
+        },
+        "type": "ConjureForm"
+      },
+      "appearance": {
+        "paddingTop": "10",
+        "paddingSides": "20",
+        "paddingBottom": "10",
+        "colorControlButtonBackground": "#F2FEFF",
+        "colorControlButtonText": "#F2FEFF",
+        "colorBackground": "#F2FEFF"
+      }
+    }
+  },
+  "items": {},
+  "order": [
+    {
+      "type": "ConjureForm",
+      "id": "osuQVNL"
+    },
+    {
+      "type": "ConjureForm",
+      "id": "y01LCIO"
+    }
+  ],
+  "formID": "roP02PN",
+  "formDetails": {
+    "containerType": "all",
+    "outputID": "roP02PN",
+    "maxForms": 1,
+    "newSubformButtonText": "Add New",
+    "renderConditionally": false,
+    "renderCondition": {
+      "questionID": false,
+      "questionValue": false
+    },
+    "type": "ConjureForm"
+  },
+  "appearance": {
+    "paddingTop": "10",
+    "paddingSides": "20",
+    "paddingBottom": "10",
+    "colorControlButtonBackground": "#262626",
+    "colorControlButtonText": "#ffffff"
+  }
+}
